@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Combine PDF – Online PDF Combiner</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="google-site-verification" content="vrc3fldZKybWsmdhOXp6j9UBw5wNsNKRU5rBVm7qsec" />
+    <meta name='yandex-verification' content='4dd10f47c827881c' />
+    <meta name="msvalidate.01" content="D5D91A439DD2754A4CD969318549EF6E" />
+
+    <meta name="description" content="This free online tool allows to combine multiple PDF or image files into a single PDF document.">
+    <meta property="og:site_name" content="Combine PDF">
+    <meta property="og:title" content="Online PDF Combiner">
+    <meta property="og:description" content="This free online tool allows to combine multiple PDF or image files into a single PDF document.">
+    <meta property="og:image" content="https://combinepdf.com/images/combinepdf/icon.png">
+    <link rel="icon" href="/images/combinepdf/favicon.png">
+    <link rel="shortcut icon" href="/images/combinepdf/favicon.png">
+    <link href="/css/ui-theme/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/main.css?6" rel="stylesheet" type="text/css">
+            <link rel="canonical" hreflang="en" href="https://combinepdf.com/">
+            <link rel="alternate" hreflang="zh" href="https://combinepdf.com/zh/">
+            <link rel="alternate" hreflang="es" href="https://combinepdf.com/es/">
+            <link rel="alternate" hreflang="pt" href="https://combinepdf.com/pt/">
+            <link rel="alternate" hreflang="ru" href="https://combinepdf.com/ru/">
+            <link rel="alternate" hreflang="id" href="https://combinepdf.com/id/">
+            <link rel="alternate" hreflang="fr" href="https://combinepdf.com/fr/">
+            <link rel="alternate" hreflang="de" href="https://combinepdf.com/de/">
+            <link rel="alternate" hreflang="ja" href="https://combinepdf.com/ja/">
+            <link rel="alternate" hreflang="nl" href="https://combinepdf.com/nl/">
+            <link rel="alternate" hreflang="pl" href="https://combinepdf.com/pl/">
+            <link rel="alternate" hreflang="tr" href="https://combinepdf.com/tr/">
+            <link rel="alternate" hreflang="ko" href="https://combinepdf.com/ko/">
+            <link rel="alternate" hreflang="it" href="https://combinepdf.com/it/">
+            <link rel="alternate" hreflang="vi" href="https://combinepdf.com/vi/">
+    <script type="text/javascript" src="/common/js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/common/js/common.min.js"></script>
+    <script type="text/javascript" src="/js/main.js?2"></script>
+    <link rel="stylesheet" type="text/css" href="/common/css/cookieconsent.min.css">
+    <script src="/common/js/cookieconsent.min.js"></script>
+    <script type="text/javascript">
+        var sizeLimit = "51200kb", supportedFormats = "BMP, GIF, HEIC, HEIF, JP2, JPEG, JPG, PDF, PNG, PSD, TIF, TIFF, XCF", allName = "combinepdf.pdf",
+        thumbnail_sortable = 1, thumbnail_clickable = 0;
+        text = { js_dropfiles : "Drop Your Files Here", js_toobig : "The file size is too large", js_wrongtype : "Wrong file format. Allowed",
+        js_of : "of", js_conerror : "Connection error.", js_error : "Error", js_share : "Please share this page via",
+        js_st_uploading : "UPLOADING", js_st_error : "ERROR", js_st_waiting : "WAITING",
+        js_st_converting : "CONVERTING", js_st_save : "DOWNLOAD" };
+        $(function() {
+                $("#share").share({ "networks" : ["twitter", "facebook", "reddit"], "theme" : "bw" });
+            $('#pls').polyglotLanguageSwitcher({ effect: 'fade' });
+            $("#policy").click(function(e) { e.preventDefault(); prettyPopup("/policy", "Privacy Policy"); });
+            $("#formats").click(function(e) { e.preventDefault(); prettyPopup("/formats", ""); });
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#000000",
+                        "text": "#ffffff"
+                    },
+                    "button": {
+                        "background": "#8ec760",
+                        "text": "#ffffff"
+                    }
+                },
+                // "theme": "edgeless",
+                "content": {
+                    "message": "Google collects data and uses cookies for ad personalization and measurement for this site. <a class='cc-link' target='_blank' href='https://policies.google.com/technologies/partner-sites'>Learn how Google collects and uses data.</a> By using this site, you consent to our use of cookies. You can turn off ad personalization at any time in your Google account settings."
+                }
+            });
+        });
+    </script>
+    <!--
+    <style>
+        html { display: none; }
+    </style>
+    -->
+    <script type="text/javascript">
+        if (self == top) document.documentElement.style.display = "block";
+        else top.location = self.location;
+    </script>
+    
+</head>
+<body>
+
+<div id="wrapper" class="width">
+
+<div id="header-wrapper">
+    <div id="header">
+        <div id="header-left">
+            <img src="/images/combinepdf/logo.svg" alt="Online PDF Combiner">
+                <div id="desc">
+                    This free and easy to use online tool allows to combine multiple PDF or images files into a single PDF document without having to install any software.
+                </div>
+            <ol>
+                <li>Select up to 20 PDF files and images from your computer or drag them to the drop area.</li>
+                <li>Drag-and-drop file blocks to change the order. When you are ready to proceed, click COMBINE button.</li>
+            </ol>
+                <div id="pls">
+                    <form>
+                        <select id="pls-options">
+                                <option id="en" value="en" selected>English</option>
+                                <option id="zh" value="zh">中文</option>
+                                <option id="es" value="es">Español</option>
+                                <option id="pt" value="pt">Português</option>
+                                <option id="ru" value="ru">Русский</option>
+                                <option id="id" value="id">Indonesia</option>
+                                <option id="fr" value="fr">Français</option>
+                                <option id="de" value="de">Deutsch</option>
+                                <option id="ja" value="ja">日本語</option>
+                                <option id="nl" value="nl">Nederlands</option>
+                                <option id="pl" value="pl">Polski</option>
+                                <option id="tr" value="tr">Türkçe</option>
+                                <option id="ko" value="ko">한국어</option>
+                                <option id="it" value="it">Italiano</option>
+                                <option id="vi" value="vi">Tiếng việt</option>
+                        </select>
+                    </form>
+                </div>
+        </div>
+        <div id="header-right">
+
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- combinepdf-top-right -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-8708471661558831"
+         data-ad-slot="7995365902"
+         data-ad-format="rectangle"
+         data-full-width-responsive="true"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+
+            <div id="alter-right">
+
+                <style>
+    .more-tools {
+        width: 336px;
+        height: 270px;
+        border: 3px solid #C1C9C9;
+        border-radius: 30px 0 30px 0;
+        padding: 13px 15px;
+    }
+    .more-tools li {
+        padding-bottom: 8px;
+        list-style-type: none;
+        min-height: 65px;
+        overflow: hidden;
+    }
+    .more-tools ul {
+        padding: 0;
+        margin: 0;
+    }
+    .more-tools-title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .more-tools-title a {
+        color: #0000FF;
+    }
+    .more-tools-title a:hover {
+        color: #ff0000;
+    }
+    .more-tools-text {
+        font-size: 14px;
+    }
+    .more-tools h2 {
+        padding-bottom: 8px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+</style>
+<div class="more-tools">
+    <h2>Useful Online Tools</h2>
+    <ul>
+        <script>
+            function shuffle(o) {
+                for (var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+                return o;
+            }
+            function bodyClassListener(callback) {
+                var lastClassName = '';
+                var bcli = setInterval( function() {   
+                    var className = document.body.className;
+                    if (className !== lastClassName) {
+                        callback(bcli, className);
+                        lastClassName = className;
+                    }
+                }, 500);
+            }
+            var moreTools = shuffle([
+                ["https://svgoptimizer.com",         "SVG Optimizer",        "Compress SVG images online."],
+                ["https://usernamegenerator.com",    "Username Generator",   "Get yourself a unique username."],
+                ["https://passgenerator.com",        "Pass Generator",       "Create strong passwords for online accounts"],
+                ["https://signaturegenerator.com",   "Signature Generator",  "Are you ready to create your unique autograph?"],
+                ["https://numbergenerator.com",      "Number Generator",     "Generate random numbers of any kind."],
+                ["https://heic2jpg.com",             "HEIC to JPG",          "Convert HEIC images to JPG format."],
+                ["https://svgtopdf.com",             "SVG to PDF",           "Convert SVG images to PDF format."],
+                ["https://epstosvg.com",             "EPS to SVG",           "Convert EPS images to SVG format."],                
+                ["https://pdftosvg.com",             "PDF to SVG",           "Convert PDF documents to SVG images."],
+                ["https://svgtojpg.com",             "SVG to JPG",           "Convert SVG images to JPEG images."],
+            ]);
+            var s = 0;
+            for (var i=0; i<moreTools.length; i++) {
+                if (s < 3 && moreTools[i][0].indexOf(window.location.hostname) == -1) {
+                    document.writeln('<li><div class="more-tools-title"><a href="' + moreTools[i][0] + '">' + moreTools[i][1] + ' &#8663;</a></div>');
+                    document.writeln('<div class="more-tools-text">' + moreTools[i][2] + '</div></li>');
+                    moreTools.splice(i, 1);
+                    s++;
+                }
+            }
+            bodyClassListener(function(bcli, className) {
+                if (className == 'adb') {
+                    clearInterval(bcli);
+                    var _paq = window._paq || [];
+                    _paq.push(['trackGoal', 1]);
+                }
+            });
+        </script>
+    </ul>
+</div>
+
+
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+    <style>
+    #switch-wrapper {
+        max-height: 28px;
+        overflow: hidden;
+        text-align: center;
+    }
+    #switch-wrapper .ui-button-text {
+        font-family: Arial;
+        font-size: 12.7px;
+        font-weight: bold;
+        line-height: 15px;
+    }
+    #switch .ui-state-active {
+        cursor: default;
+    }
+    #switch-wrapper .ui-buttonset {
+        margin: 0;
+    }
+    #switch input {
+        margin: 0;
+    }
+    #switch .ui-button {
+        padding: 7px 6px 6px 6px;
+    }
+    #switch label {
+        border: 1px solid #CCCCCC;
+        border-bottom: none;
+        background-color: #FFF0ED;
+        margin: 0;
+        border-radius: 3px 3px 0 0;
+        overflow: hidden;
+        margin: 0 1px 0 1px;
+    }
+    #switch label .ui-button-text {
+        min-width: 50px;
+    }
+    #switch .ui-state-default:hover {
+        background-color: #E37863;
+        border-color: #E37863;
+        color: #FFFFFF;
+    }
+    #switch .ui-state-active, #switch .ui-state-active:hover {
+        background-color: #47A4A5;
+        border-color: #47A4A5;
+    }
+    @media only screen and (max-width: 960px) {
+        #switch-wrapper {
+            display: none;
+        }
+    }
+</style>
+<div id="switch-wrapper">
+    <div id="switch" style="display: none;"></div>
+    <div class="clear"></div>
+</div>
+<script>
+    $(function() {
+        var tools = [
+            ["pdf2doc",         "https://pdf2doc.com",           "PDF to DOC"],
+            ["pdf2docx",        "https://pdf2docx.com",          "PDF to DOCX"],
+            ["pdftotext",       "https://pdftotext.com",         "PDF to Text"],
+            ["pdftoimage",      "https://pdftoimage.com",        "PDF to JPG"],
+            ["pdf2png",         "https://pdf2png.com",           "PDF to PNG"],
+            ["pdf2svg",         "https://pdftosvg.com",          "PDF to SVG"],
+            ["pdfextractor",    "https://pdfextractor.com",      "PDF Extractor"],
+            ["pdfcompressor",   "https://pdfcompressor.com",     "PDF Compressor"],
+            ["combinepdf",      "https://combinepdf.com",        "Combine PDF"],
+            ["jpg2pdf",         "https://jpg2pdf.com",           "JPG to PDF"],
+        ];
+        var postfix = '';
+        var s = '';
+        for (var i=0; i<tools.length; i++) {
+            s += '<input type="radio" id="' + tools[i][0] + '-switch" name="radio"';
+            if (tools[i][0] == "combinepdf") s += ' checked="checked"';
+            s += '><label for="' + tools[i][0] + '-switch" data-url="' + tools[i][1] + postfix + '">' + tools[i][2] + '</label>';
+        }
+        $("#switch").html(s).buttonset().show();
+        $("#switch label").click(function() { var url = $(this).attr("data-url"); if (url) window.location.href = url; });
+    });
+</script>
+
+
+
+<div id="main">
+
+    <div class="ha-wrapper">
+        <div class="ha">
+
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- combinepdf-top -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-8708471661558831"
+         data-ad-slot="8589332773"
+         data-ad-format="horizontal"
+         data-full-width-responsive="false"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+
+        </div>
+    </div>
+
+    
+
+    <div id="upload-buttons-wrapper">
+        <div id="pick-files" class="ui-button-success">Upload Files</div>
+        <div id="reset-all" class="ui-button-danger plupload_disabled">Clear Queue</div>
+    </div>
+    <div class="clear"></div>
+
+    
+
+    <div id="carousel-wrapper">
+        <div id="carousel-prev-wrapper">
+            <div id="carousel-prev" class="disabled"></div>
+        </div> 
+        <div id="container">
+            <div id="carousel">
+                <ul id="filelist" class="plupload_filelist"></ul>
+            </div>
+        </div>
+        <div id="carousel-next-wrapper">
+            <div id="carousel-next" class="disabled"></div>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <button id="download-all" class="ui-btn-small ui-button-inverse">Combine</button>
+
+    <div class="ha-wrapper">
+        <div class="hl">
+
+                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- combinepdf-bottom -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-8708471661558831"
+         data-ad-slot="4362147502"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<div id="footer">
+    <div id="bottom">
+        <div id="like-it">Like it? Share it!</div>
+        <div id="share" class="share" data-url="https://combinepdf.com/" data-title="Online PDF Combiner"></div>
+        <p id="footer-privacy">All data submitted/uploaded is deleted after 1 hour.</p>
+        <p id="footer-copy">&copy; 2020 Media4x</p>
+    </div>
+</div>
+
+<script type="text/javascript" src="/common/js/plupload2/plupload.full.min.js"></script>
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://stats.monohost.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '43']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
+</body>
+</html>
