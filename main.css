@@ -700,7 +700,7 @@ input:focus, select:focus, textarea:focus, button:focus {
 }
 
 
-/* test  */
+/* test  
 
 #header ol > li::before {
     display: none;
@@ -741,6 +741,7 @@ input:focus, select:focus, textarea:focus, button:focus {
     margin-bottom: 25px;
 }
 
+*/
 
 /* responsive */
 
