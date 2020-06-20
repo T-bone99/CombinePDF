@@ -166,7 +166,7 @@ input:focus, select:focus, textarea:focus, button:focus {
     background-color: #FFFFFF;
 }
 .status-icon {
-    background: transparent url(/images/status-icons.png) no-repeat scroll left top;
+    background: transparent url(status-icons.png) no-repeat scroll left top;
     display: block;
     width: 37px;
     height: 37px;
@@ -222,19 +222,19 @@ input:focus, select:focus, textarea:focus, button:focus {
     text-transform: uppercase;
 }
 #download-all .ui-icon {
-    background-image: url(ui-theme/images/ui-icons_ffffff_256x240.png);
+    background-image: url(ui-icons_ffffff_256x240.png);
 }
 .plupload_file_wrapper .ui-icon {
-    background-image: url(ui-theme/images/ui-icons_888888_256x240.png);
+    background-image: url(ui-icons_888888_256x240.png);
 }
 .plupload_file_wrapper .ui-icon:hover {
-    background-image: url(ui-theme/images/ui-icons_454545_256x240.png);
+    background-image: url(ui-icons_454545_256x240.png);
 }
 .plupload_file_wrapper.ui-button-inverse .ui-icon {
-    background-image: url(ui-theme/images/ui-icons_e6e6e6_256x240.png);
+    background-image: url(ui-icons_e6e6e6_256x240.png);
 }
 .plupload_file_wrapper.ui-button-inverse .ui-icon:hover {
-    background-image: url(ui-theme/images/ui-icons_ffffff_256x240.png);
+    background-image: url(ui-icons_ffffff_256x240.png);
 }
 .ui-dialog .ui-button {
     outline: 0;
@@ -243,11 +243,11 @@ input:focus, select:focus, textarea:focus, button:focus {
     background: none !important;
 }
 #carousel-prev.ui-button {
-    background: transparent url(/images/left-arrow.png) center center no-repeat;
+    background: transparent url(left-arrow.png) center center no-repeat;
     border: none;
 }
 #carousel-next.ui-button {
-    background: transparent url(/images/right-arrow.png) center center no-repeat;
+    background: transparent url(right-arrow.png) center center no-repeat;
     border: none;
 }
 #carousel-prev .ui-icon, #carousel-next .ui-icon {
@@ -356,7 +356,7 @@ input:focus, select:focus, textarea:focus, button:focus {
     position: relative;
     height: 152px;
     margin: 0 1% 20px 1%;
-    background-image: url(/images/squared_metal.png);
+    background-image: url(squared_metal.png);
 }
 #carousel-wrapper .ui-button, #carousel-wrapper .ui-icon {
     padding: 0;
@@ -407,7 +407,7 @@ input:focus, select:focus, textarea:focus, button:focus {
     text-transform: uppercase;
 }
 #upload-buttons-wrapper .ui-icon {
-    background-image: url(ui-theme/images/ui-icons_ffffff_256x240.png);
+    background-image: url(ui-icons_ffffff_256x240.png);
 }
 #upload-buttons-wrapper .ui-button {
     height: 33px;
@@ -491,7 +491,7 @@ input:focus, select:focus, textarea:focus, button:focus {
     font-size: 11px;
 }
 .plupload_thumb_wrapper {
-    background: #FFFFFF url(/images/grid.png) repeat;
+    background: #FFFFFF url(grid.png) repeat;
     border: inherit;
     overflow: hidden;
     margin-top: 5px;
@@ -526,10 +526,10 @@ input:focus, select:focus, textarea:focus, button:focus {
     z-index: 10;
 }
 .plupload_file_wrapper .ui-icon {
-    background-image: url(ui-theme/images/ui-icons_888888_256x240.png);
+    background-image: url(ui-icons_888888_256x240.png);
 }
 .plupload_thumb_wrapper {
-    background: #FFFFFF url(/images/grid.png) repeat;
+    background: #FFFFFF url(grid.png) repeat;
     border: inherit;
 }
 .plupload_thumb_extra {
@@ -624,7 +624,7 @@ input:focus, select:focus, textarea:focus, button:focus {
     margin: 0 5px;
 }
 .share-bw {
-    background: url(/images/social-icons.png) no-repeat scroll left top transparent;
+    background: url(social-icons.png) no-repeat scroll left top transparent;
     display: inline-block;
     width: 49px;
     height: 49px;
@@ -734,10 +734,10 @@ input:focus, select:focus, textarea:focus, button:focus {
     right: 6px;
 }
 #pls a.current:link span.trigger, #pls a.current:visited span.trigger {
-    background: url(/common/images/arrow-down.gif) no-repeat left bottom;   
+    background: url(arrow-down.gif) no-repeat left bottom;   
 }
 #pls a.current:hover span.trigger {
-    background: url(/common/images/arrow-down-white.gif) no-repeat left bottom; 
+    background: url(arrow-down-white.gif) no-repeat left bottom; 
 }
 #pls ul.dropdown { 
     display: none;
