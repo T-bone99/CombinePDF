@@ -42,7 +42,7 @@ function initUploader() {
         container       : "upload-buttons-wrapper",
         max_file_size   : sizeLimit,
         url             : origin + "/upload/" + sessionID,
-        flash_swf_url   : origin + "/Moxie.swf",
+        flash_swf_url   : origin + "plupload2/Moxie.swf",
         multipart       : true,
         dragdrop        : true,
         drop_element    : "container"
