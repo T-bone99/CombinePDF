@@ -734,10 +734,10 @@ input:focus, select:focus, textarea:focus, button:focus {
     right: 6px;
 }
 #pls a.current:link span.trigger, #pls a.current:visited span.trigger {
-    background: url(/common/images/arrow-down.gif) no-repeat left bottom;   
+    background: url(arrow-down.gif) no-repeat left bottom;   
 }
 #pls a.current:hover span.trigger {
-    background: url(/common/images/arrow-down-white.gif) no-repeat left bottom; 
+    background: url(arrow-down-white.gif) no-repeat left bottom; 
 }
 #pls ul.dropdown { 
     display: none;
